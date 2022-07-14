@@ -1,0 +1,53 @@
+.Header {
+  width: 100%;
+
+  .container {
+    width: 70%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    margin: 30px auto;
+    border: 5px solid #fff;
+    border-radius: 25px;
+    justify-content: space-between;
+
+    .text {
+      line-height: 50px;
+      font-size: 50px;
+      padding: 50px;
+
+      @media only screen and(max-width: 430px) {
+        font-size: 30px;
+      }
+
+      span {
+        font-weight: bold;
+        display: block;
+        text-align: left;
+      }
+    }
+
+    .score-box {
+      background: #fff;
+      padding: 25px;
+      border-radius: 15px;
+      margin: 50px;
+
+      span {
+        color: rgb(6, 6, 80);
+        font-size: 20px;
+      }
+
+      .score-box-score {
+        font-size: 50px;
+        color: #000;
+      }
+      @media only screen and(max-width: 850px) {
+        margin: 25px;
+      }
+    }
+    @media only screen and(max-width: 850px) {
+      width: 90%;
+    }
+  }
+}
