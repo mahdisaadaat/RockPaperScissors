@@ -1,0 +1,21 @@
+.Footer {
+  h3 {
+    font-size: 20px;
+  }
+
+  a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #000;
+    &:hover {
+      color: #555;
+    }
+  }
+  .socialMedia {
+    padding: 15px;
+
+    a {
+      padding: 15px;
+    }
+  }
+}
